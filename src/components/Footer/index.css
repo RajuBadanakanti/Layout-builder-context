@@ -1,0 +1,35 @@
+/* Write your CSS here */
+/* >>>>>>>>>>>>>>> MOBILE DEVICE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.bg-footer-container {
+  background-color: #cbd5e1;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-heading {
+  font-size: 30px;
+  font-family: 'roboto';
+  color: #64748b;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> LARGE DEVICE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 768px) {
+  .bg-footer-container {
+    background-color: #cbd5e1;
+    height: 125px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-heading {
+    font-size: 50px;
+    font-family: 'roboto';
+    color: #64748b;
+  }
+}

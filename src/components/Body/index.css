@@ -1,0 +1,229 @@
+/* >>>>>>>>>> MOBILE DEVICE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.bg-body-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* left nav */
+.left-nav-container {
+  min-width: 30%;
+  min-height: 300px;
+
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  padding: 30px;
+
+  margin-bottom: 5px;
+}
+.left-nav-header {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #475569;
+}
+.left-nav-list {
+  width: 90%;
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list-items {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #475569;
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* right nav */
+.right-nav-container {
+  min-width: 30%;
+  min-height: 300px;
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 30px;
+}
+.right-nav-header {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #475569;
+}
+.right-nav-boxes-contsiner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.box-item {
+  height: 120px;
+  font-size: 16px;
+  font-family: 'roboto';
+  color: #475569;
+  width: 80%;
+  border:
+    1px solid,
+    #475569;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+/* mid content  */
+.mid-content-container {
+  min-width: 30%;
+  min-height: 300px;
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 2;
+  padding: 30px;
+  margin-bottom: 5px;
+}
+.mid-content-header {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #475569;
+}
+.mid-content-description {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #475569;
+  margin: 0;
+  text-align: center;
+}
+
+/* >>>>>>>>>> LARGE DEVICE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media screen and (min-width: 768px) {
+  .bg-body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* left nav */
+  .left-nav-container {
+    min-width: 30%;
+    min-height: 500px;
+
+    background-color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 30px;
+    margin-right: 5px;
+  }
+  .left-nav-header {
+    font-size: 25px;
+    font-family: 'roboto';
+    color: #475569;
+  }
+  .left-nav-list {
+    width: 90%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list-items {
+    width: 80%;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'roboto';
+    color: #475569;
+    margin-bottom: 20px;
+  }
+
+  /* right nav */
+  .right-nav-container {
+    min-width: 30%;
+    min-height: 500px;
+    background-color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 30px;
+  }
+  .right-nav-header {
+    font-size: 24px;
+    font-family: 'roboto';
+    color: #475569;
+  }
+  .right-nav-boxes-contsiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-item {
+    height: 150px;
+    font-size: 20px;
+    font-family: 'roboto';
+    color: #475569;
+    width: 80%;
+    border:
+      1px solid,
+      #475569;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* mid content  */
+  .mid-content-container {
+    min-width: 30%;
+    min-height: 500px;
+    background-color: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 2;
+    padding: 30px;
+    margin-right: 5px;
+  }
+  .mid-content-header {
+    font-size: 24px;
+    font-family: 'roboto';
+    color: #475569;
+  }
+  .mid-content-description {
+    font-size: 24px;
+    font-family: 'roboto';
+    color: #475569;
+    margin: 0;
+    text-align: left;
+  }
+}
